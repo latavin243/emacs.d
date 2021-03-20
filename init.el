@@ -132,6 +132,7 @@
 
 ;; custom packages
 (require 'init-evil)
+(require 'init-swiper)
 
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
