@@ -130,6 +130,9 @@
 (require 'init-folding)
 (require 'init-dash)
 
+;; custom packages
+(require 'init-evil)
+
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
 (require 'init-ledger)
