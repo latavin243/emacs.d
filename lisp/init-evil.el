@@ -10,7 +10,7 @@
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
 
 ;; leader
-(require-package 'evil-leader
+(require-package 'evil-leader)
 (global-evil-leader-mode)
 (evil-leader/set-leader ",")
 (evil-leader/set-key
@@ -29,11 +29,11 @@
 )
 
 ;; surround
-(require-package 'evil-surround
+(require-package 'evil-surround)
 (global-evil-surround-mode 1)
 
 ;; evil nerd commenter
-(require-package 'evil-nerd-commenter
+(require-package 'evil-nerd-commenter)
 (evil-leader/set-key
   "cc" 'evilnc-comment-or-uncomment-lines
   "ci" 'evilnc-comment-or-uncomment-lines
